@@ -6,11 +6,13 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-
 a {
   text-decoration: none;
   color: black;
 
+}
+.text-center {
+  text-align: center;
 }
 
 /* navbar */
@@ -23,7 +25,6 @@ a {
   padding-left: 30px;
   display: inline-block;
 }
-
 .sign-in {
   border: 2px solid rgb(19, 100, 255);
   padding: 10px;
@@ -42,7 +43,7 @@ a {
 
 /* banner */
 .banner {
-  background-image: url(https://image.winudf.com/v2/image/Y29tLlBSSVNTSS5XYWxscGFwZXIuYmFja2dyb3VuZC5CYWNrZ3JvdW5kQmx1ZVdhbGxwYXBlcl9zY3JlZW5fM18xNTI4MTk2NDI3XzA0Nw/screen-3.jpg?fakeurl=1&type=.jpg);
+  background: blue;
   background-size: cover;
 }
 .free-credit {
@@ -67,7 +68,6 @@ a {
   width: 80%;
   margin-bottom: 200px;
 }
-
 .form {
   margin-top: 80px;
   background: white;
@@ -81,26 +81,25 @@ a {
   padding: 15px;
   margin: 10px;
   width: 95%;
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 10px;
 }
 .register {
-
   background: rgb(19, 100, 255);
   color: white;
-  padding: 15px;
+  padding: 10px;
   margin: 10px;
   width: 95%;
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 10px;
   font-weight: bold;
 }
 .register-google {
   color: rgb(19, 100, 255);
-  padding: 15px;
+  padding: 10px;
   margin: 10px;
   width: 95%;
-  font-size: 25px;
+  font-size: 15px;
   border-radius: 10px;
   border: 2px solid rgb(19, 100, 255);
   font-weight: bold;
@@ -112,4 +111,39 @@ a {
 .form p {
   margin: 10px;
   text-align: center;
+}
+
+/* sponsor */
+.sponsor {
+  background: lightgrey;
+}
+.sponsor img {
+  height: 30px;
+  margin: 20px;
+}
+.text-sponsor {
+  text-align: center;
+  margin: 40px;
+  font-weight: bold;
+}
+.buisness-solutions {
+  color: rgb(19, 100, 255);
+  font-weight: bold;
+  margin: 30px;
+}
+.buisness-solutions-col {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* learn more */
+.learn-more h2 {
+  text-align: center;
+  font-size: 40px;
+  margin: 30px;
+}
+.learn-more p {
+  text-align: center;
+  line-height: 30px;
 }

@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+/* navbar */
+.navbar img {
+  height: 30px;
+  margin: 20px;
+}
+.navbar p {
+  padding-top: 30px;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.sign-in {
+  border: 2px solid rgb(19, 100, 255);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(19, 100, 255);
+  font-weight: bold;
+}
+.sign-up {
+  border: 2px solid rgb(19, 100, 255);
+  background: rgb(19, 100, 255);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+/* banner */
+.banner {
+  background-image: url(https://image.winudf.com/v2/image/Y29tLlBSSVNTSS5XYWxscGFwZXIuYmFja2dyb3VuZC5CYWNrZ3JvdW5kQmx1ZVdhbGxwYXBlcl9zY3JlZW5fM18xNTI4MTk2NDI3XzA0Nw/screen-3.jpg?fakeurl=1&type=.jpg);
+  background-size: cover;
+}
+.free-credit {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+.banner h1 {
+  color: white;
+  font-size: 60px;
+  width: 60%;
+  margin-top: 80px;
+}
+.description {
+  font-size: 30px;
+  color: white;
+  line-height: 35px;
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 200px;
+}
+
+.form {
+  margin-top: 80px;
+  background: white;
+  border-radius: 10px;
+}
+.form h2 {
+  padding: 20px;
+  text-align: center;
+}
+.form input {
+  padding: 15px;
+  margin: 10px;
+  width: 95%;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.register {
+
+  background: rgb(19, 100, 255);
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 95%;
+  font-size: 25px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.register-google {
+  color: rgb(19, 100, 255);
+  padding: 15px;
+  margin: 10px;
+  width: 95%;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 2px solid rgb(19, 100, 255);
+  font-weight: bold;
+}
+.banner img {
+  height: 15px;
+  padding-right: 20px;
+}
+.form p {
+  margin: 10px;
+  text-align: center;
+}

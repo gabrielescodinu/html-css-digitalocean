@@ -17,6 +17,7 @@
 [class*="col-"] {
   float: left;
 }
+
 /* columns large screen*/
 .col-lg-1 {
   width: calc((100%/12) *1);

@@ -9,7 +9,6 @@ body {
 a {
   text-decoration: none;
   color: black;
-
 }
 .text-center {
   text-align: center;
@@ -37,6 +36,9 @@ a {
   color: #0067ff;
   font-weight: bold;
 }
+.sign-in:hover {
+  color: white;
+}
 .sign-up {
   border: 2px solid #0067ff;
   background: #0067ff;
@@ -45,10 +47,15 @@ a {
   color: white;
   font-weight: bold;
 }
+.sign-up:hover {
+  background: #010e28;
+  color: white;
+  border: 2px solid #010e28;
+}
 .menu-icon {
   display: none;
 }
-.nav a:hover {
+.nav-links a:hover {
   color: #0067ff;
 }
 .sign-in:hover {
@@ -77,6 +84,10 @@ a {
   margin-top: 100px;
   border-radius: 10px;
 }
+.free-credit:hover {
+  background: #0067ff;
+}
+
 .banner h1 {
   color: white;
   font-size: 60px;
@@ -182,6 +193,9 @@ a {
 .hub {
   padding: 20px;
 }
+.hub-container a:hover {
+  color: #0067ff;
+}
 .hub-link {
   margin: 20px;
   font-size: 20px;
@@ -252,6 +266,9 @@ a {
 .statistics a {
   color: aqua;
 }
+.statistics a:hover {
+  color: white;
+}
 .fly-left {
   border-bottom: 1px solid grey;
   padding-bottom: 10px;
@@ -292,6 +309,10 @@ a {
   padding: 20px;
   border-radius: 10px;
 }
+.get-started-now a:hover {
+  background: #010e28;
+  color: white;
+}
 .demo {
   margin-bottom: 50px;
   text-align: center;
@@ -318,4 +339,17 @@ footer img {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
+  font-weight: bold;
+}
+footer a {
+  color: grey;
+  display: block;
+  margin-top: 10px;
+}
+.footer-link {
+  margin-bottom: 30px;
+  padding-left: 20px;
+}
+.footer-link a:hover {
+  color: white;
 }

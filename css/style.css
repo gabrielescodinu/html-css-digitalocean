@@ -14,6 +14,19 @@ a {
   text-align: center;
 }
 
+.helper {
+  background: rgba(255, 0, 0, 0);
+  position: fixed;
+  bottom: 0;
+}
+.helper-banner {
+  margin: 20px;
+  background: #0067ff;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
 /* navbar */
 .nav {
   position: fixed;
@@ -32,7 +45,7 @@ a {
 .sign-in {
   border: 2px solid #0067ff;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #0067ff;
   font-weight: bold;
 }
@@ -43,7 +56,7 @@ a {
   border: 2px solid #0067ff;
   background: #0067ff;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: white;
   font-weight: bold;
 }
@@ -70,10 +83,19 @@ a {
     display: inline-block;
   }
 }
+@media all and (min-width: 769px) and (max-width: 1200px) {
+  .nav p {
+    display: none;
+  }
+  .menu-icon {
+    display: inline-block;
+  }
+}
 
 /* banner */
 .banner {
-  background-image: linear-gradient(to right, blue ,#0067ff);
+  background-image: url(https://i.pinimg.com/originals/29/ab/33/29ab33c3b3cb4ae3a23eaa5097c5bdf9.png);
+
 }
 .free-credit {
   text-align: center;
@@ -87,7 +109,6 @@ a {
 .free-credit:hover {
   background: #0067ff;
 }
-
 .banner h1 {
   color: white;
   font-size: 60px;
@@ -119,26 +140,7 @@ a {
   width: 95%;
   font-size: 15px;
   border-radius: 10px;
-}
-.register {
-  background: #0067ff;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  width: 95%;
-  font-size: 15px;
-  border-radius: 10px;
-  font-weight: bold;
-}
-.register-google {
-  color: #0067ff;
-  padding: 10px;
-  margin: 10px;
-  width: 95%;
-  font-size: 15px;
-  border-radius: 10px;
-  border: 2px solid #0067ff;
-  font-weight: bold;
+  border: 0px;
 }
 .banner img {
   height: 15px;
@@ -147,6 +149,40 @@ a {
 .form p {
   margin: 10px;
   text-align: center;
+}
+.form hr {
+  width: 90%;
+  margin: auto;
+}
+.registration {
+  text-align: center;
+  background: #0067ff;
+  width: 95%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+.registration:hover {
+  background: #010e28;
+  color: white;
+}
+.registration-google {
+  text-align: center;
+  background: white;
+  width: 95%;
+  margin: auto;
+  padding: 19px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: grey;
+}
+.registration-google:hover {
+  background: #010e28;
+  color: white;
+}
+.term {
+  color: #0067ff;
 }
 
 /* sponsor */

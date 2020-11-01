@@ -18,7 +18,7 @@
   float: left;
 }
 
-/* columns large screen*/
+/* large screen*/
 .col-lg-1 {
   width: calc((100%/12) *1);
 }
@@ -91,9 +91,8 @@
   margin-left: calc((100%/12) *11);
 }
 
-/* Media Query md */
+/* medium screen */
 @media all and (min-width: 769px) and (max-width: 1200px) {
-
   .col-md-1 {
     width: calc((100%/12) *1);
   }
@@ -130,8 +129,8 @@
   .col-md-12 {
     width: 100%;
   }
-  /* offset medium sceen */
 
+  /* offset medium sceen */
   .col-offset-md-1 {
     margin-left: calc((100%/12) *1);
   }
@@ -165,10 +164,9 @@
   .col-offset-md-11 {
     margin-left: calc((100%/12) *11);
   }
-
 }
 
-/* Small screen media */
+/* small screen */
 @media all and (max-width: 768px) {
   .col-sm-1 {
     width: calc((100%/12) *1);
@@ -207,7 +205,7 @@
     width: 100%;
   }
 
-  /* offset small */
+  /* offset small screem */
   .col-offset-sm-1 {
     margin-left: calc((100%/12) *1);
   }
@@ -241,5 +239,4 @@
   .col-offset-sm-11 {
     margin-left: calc((100%/12) *11);
   }
-
 }
